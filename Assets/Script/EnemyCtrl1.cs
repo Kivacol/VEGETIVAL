@@ -48,6 +48,13 @@ public class EnemyCtrl1 : MonoBehaviour
 
     private float timeToChangeDirection;
 
+    //亂跑
+
+    public bool randomWalkMode;
+    public bool resetRandomWalk;
+    public GameObject Fire;
+   
+
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -64,6 +71,9 @@ public class EnemyCtrl1 : MonoBehaviour
     {
         Immortal = false;
         InvokeRepeating("SwitchStates", 0f, 1.5f);
+
+        randomWalkMode = false;
+        resetRandomWalk = true;
 
         //if(other.gameObject.name == "Fire")
     }
@@ -148,7 +158,14 @@ public class EnemyCtrl1 : MonoBehaviour
 
     void chasePlayer()
     {
-        if (!FoundPlayer())
+        if(randomWalkMode == true && resetRandomWalk == true)
+        {
+            isRun = true;
+            agent.destination = transform.position+new Vector3(Random.Range(-25.0f, 25.0f),0, Random.Range(-25.0f, 25.0f));
+            resetRandomWalk = false;
+            Invoke("resetRandomWalkDic", 0.3f);
+        }
+        else if (!FoundPlayer())
         {
             isRun = false;
             agent.destination = transform.position;
@@ -194,6 +211,13 @@ public class EnemyCtrl1 : MonoBehaviour
         else if (other.gameObject.CompareTag("attack"))
         {
             Damage();
+            //Debug.Log(other.gameObject.name);
+            if (other.gameObject.name == "FireAttack(Clone)") {
+                randomWalkMode = true;
+                Fire.gameObject.SetActive(true);
+                speed = 25f;
+                Invoke("resetRandomWalkMode", 10);
+            }
             //if (other.gameObject.name == "Fire")
             //{
             //    timeToChangeDirection -= Time.deltaTime;
@@ -201,20 +225,20 @@ public class EnemyCtrl1 : MonoBehaviour
             //    if (timeToChangeDirection <= 0)
             //    {
             //        ChangeDirection();
-                //}
+            //}
 
-                
-                //    Debug.Log("fire");
-                //    agent.speed = speed * 1.5f;
-                //    if (Vector3.Distance(wayPoint, transform.position) <= agent.stoppingDistance)
-                //    {
-                //        isRun = false;
-                //        GetNewWayPoint();
-                //    }
-                //    else
-                //    {
-                //        isRun = true;
-                //    }
+
+            //    Debug.Log("fire");
+            //    agent.speed = speed * 1.5f;
+            //    if (Vector3.Distance(wayPoint, transform.position) <= agent.stoppingDistance)
+            //    {
+            //        isRun = false;
+            //        GetNewWayPoint();
+            //    }
+            //    else
+            //    {
+            //        isRun = true;
+            //    }
             //}
         }
     }
@@ -309,6 +333,18 @@ public class EnemyCtrl1 : MonoBehaviour
         Vector3 randomPonit = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
         wayPoint = randomPonit;
+    }
+
+    void resetRandomWalkDic()
+    {
+        resetRandomWalk = true;
+    }
+
+    void resetRandomWalkMode()
+    {
+        randomWalkMode = false;
+        Fire.gameObject.SetActive(false);
+        speed = 8f;
     }
     //void OnDrawGizmosSelected()
     //{

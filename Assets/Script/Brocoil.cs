@@ -33,7 +33,7 @@ public class Brocoil : MonoBehaviour
                 audioSource.PlayOneShot(pull);
                 Invoke("getVe", 1);
                 uICtrl.SendMessage("BrocoilAdd");
-            }
+                }
         }
     }
 

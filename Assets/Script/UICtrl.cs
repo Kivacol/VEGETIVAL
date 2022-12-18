@@ -53,7 +53,49 @@ public class UICtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            if(chiliCount >= 4)
+            {
+                chiliIcon.gameObject.SetActive(true);
+                characterCtrl.whichAvaterIsOn = 2;
+                characterCtrl.SwitchAvater();
+                Invoke("ChiliResetOG", 5);
+            }
+        }
 
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            if (onionCount >= 4)
+            {
+                onionIcon.gameObject.SetActive(true);
+                characterCtrl.whichAvaterIsOn = 3;
+                characterCtrl.SwitchAvater();
+                Invoke("OnionResetOG", 5);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            if (cornCount >= 4)
+            {
+                cornIcon.gameObject.SetActive(true);
+                characterCtrl.whichAvaterIsOn = 5;
+                characterCtrl.SwitchAvater();
+                Invoke("CornResetOG", 5);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            if (brocoilCount >= 4)
+            {
+                brocoilIcon.gameObject.SetActive(true);
+                characterCtrl.whichAvaterIsOn = 4;
+                characterCtrl.SwitchAvater();
+                Invoke("BrocoilResetOG", 5);
+            }
+        }
     }
 
     //生命值
@@ -141,10 +183,8 @@ public class UICtrl : MonoBehaviour
             ogIcon.gameObject.SetActive(false);
             chili[3].gameObject.SetActive(false);
             chili[4].gameObject.SetActive(true);
-            chiliIcon.gameObject.SetActive(true);
-            characterCtrl.whichAvaterIsOn = 2;
-            characterCtrl.SwitchAvater();
-            Invoke("ChiliResetOG", 30);
+            
+            
         }
     }
 
@@ -171,10 +211,8 @@ public class UICtrl : MonoBehaviour
             ogIcon.gameObject.SetActive(false);
             onion[3].gameObject.SetActive(false);
             onion[4].gameObject.SetActive(true);
-            onionIcon.gameObject.SetActive(true);
-            characterCtrl.whichAvaterIsOn = 3;
-            characterCtrl.SwitchAvater();
-            Invoke("OnionResetOG", 30);
+          
+            
         }
     }
 
@@ -201,10 +239,8 @@ public class UICtrl : MonoBehaviour
             ogIcon.gameObject.SetActive(false);
             corn[3].gameObject.SetActive(false);
             corn[4].gameObject.SetActive(true);
-            cornIcon.gameObject.SetActive(true);
-            characterCtrl.whichAvaterIsOn = 5;
-            characterCtrl.SwitchAvater();
-            Invoke("CornResetOG", 30);
+            
+            
         }
     }
 
@@ -231,10 +267,8 @@ public class UICtrl : MonoBehaviour
             ogIcon.gameObject.SetActive(false);
             brocoil[3].gameObject.SetActive(false);
             brocoil[4].gameObject.SetActive(true);
-            brocoilIcon.gameObject.SetActive(true);
-            characterCtrl.whichAvaterIsOn = 4;
-            characterCtrl.SwitchAvater();
-            Invoke("BrocoilResetOG", 30);
+            
+            
         }
     }
 
@@ -267,6 +301,7 @@ public class UICtrl : MonoBehaviour
         onionIcon.gameObject.SetActive(false);
         ogIcon.gameObject.SetActive(true);
         onionCount = 0;
+
     }
 
     public void CornResetOG()

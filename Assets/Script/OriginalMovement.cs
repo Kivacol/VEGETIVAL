@@ -40,8 +40,8 @@ public class OriginalMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-;        animator = GetComponent<Animator>();
+        speed = 7;
+;       animator = GetComponent<Animator>();
         character = GetComponent<CharacterController>();
         originalStepOffest = character.stepOffset;
 
@@ -216,5 +216,11 @@ public class OriginalMovement : MonoBehaviour
     public void IsOnion()
     {
         typeVegetable = 4;
+    }
+
+    public void setSpeed()
+    {
+        speed = 7f;
+        rotationSpeed = 10f;
     }
 }

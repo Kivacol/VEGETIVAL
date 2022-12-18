@@ -37,7 +37,7 @@ public class AudioCtrl : MonoBehaviour
     void StartLevelAudio()
     {
         current.musicSource.clip = current.musicClips;
-        current.playerSource.volume = 0.5f;
+        current.musicSource.volume = 0.3f;
         current.musicSource.loop = true;
         current.musicSource.Play();
     }
@@ -47,7 +47,7 @@ public class AudioCtrl : MonoBehaviour
         int index = Random.Range(0, current.wlakStepClips.Length);
 
         current.playerSource.clip = current.wlakStepClips[index];
-        current.playerSource.volume = 0.2f;
+        current.playerSource.volume = 0.05f;
         current.playerSource.Play();
 
     }
