@@ -1,0 +1,125 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class OnionMovement : MonoBehaviour
+{
+    public float speed;
+    public float rotationSpeed;
+
+    private Animator animator;
+    private CharacterController character;
+    private float ySpeed;
+    private float originalStepOffest;
+
+    public Camera followCamera;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        character = GetComponent<CharacterController>();
+        originalStepOffest = character.stepOffset;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Movement();
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            AudioCtrl.PlayFootstepAudio();
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            AudioCtrl.PlayFootstepAudio();
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            AudioCtrl.PlayFootstepAudio();
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            AudioCtrl.PlayFootstepAudio();
+        }
+
+        //float horizontaInput = Input.GetAxis("Horizontal");
+        //float verticalInput = Input.GetAxis("Vertical");
+
+        //Vector3 movementDirection = new Vector3(horizontaInput, 0, verticalInput);
+        //float magnitude = Mathf.Clamp01(movementDirection.magnitude) * speed;
+        //movementDirection.Normalize();
+
+        //ySpeed += Physics.gravity.y * Time.time;
+
+        //Vector3 velocity = movementDirection * magnitude;
+        //velocity.y = ySpeed;
+
+        //characterController.Move(velocity * Time.deltaTime);
+
+        //if (movementDirection != Vector3.zero)
+        //{
+        //    animator.SetBool("isRun", true);
+        //    Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+
+        //    transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        //}
+        //else
+        //{
+        //    animator.SetBool("isRun", false);
+        //}
+
+    }
+
+    void Movement()
+    {
+        float horizontaInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
+        Vector3 movementInput = Quaternion.Euler(0, followCamera.transform.eulerAngles.y, 0) * new Vector3(horizontaInput, 0, verticalInput);
+        Vector3 movementDirection = movementInput.normalized;
+        float magnitude = Mathf.Clamp01(movementDirection.magnitude) * speed;
+
+
+
+        ySpeed += Physics.gravity.y * Time.time;
+
+        Vector3 velocity = movementDirection * magnitude;
+        velocity.y = ySpeed;
+        character.Move(velocity * Time.deltaTime);
+
+        if (movementDirection != Vector3.zero)
+        {
+            animator.SetBool("isRun", true);
+            Quaternion desiredRotaion = Quaternion.LookRotation(movementDirection, Vector3.up);
+
+            transform.rotation = Quaternion.Slerp(transform.rotation, desiredRotaion, rotationSpeed * Time.deltaTime);
+        }
+        else
+        {
+            animator.SetBool("isRun", false);
+        }
+
+        character.Move(movementDirection * speed * Time.deltaTime);
+    }
+
+    public void HurtAnime()
+    {
+        animator.SetTrigger("T_isHurt");
+    }
+
+    public void DeadAnime()
+    {
+        animator.SetTrigger("T_isDead");
+    }
+
+    public void StopPlayer()
+    {
+        speed = 0f;
+        rotationSpeed = 0f;
+    }
+}

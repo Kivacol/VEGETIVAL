@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 3f4f0deacd47845e6b174766cb350b60
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: "\u547C\u5438\u5F85\u6A5F"
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u547C\u5438\u5F85\u6A5F"
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 263
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: onion_cat:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: onion_cat:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:pSphere7
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:pSphere8
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:pSphere9
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:polySurface5
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:pSphere10
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:pSphere11
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:polySurface1pSphere6
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:pSphere6polySurface4
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:Hips
+      parentName: "onion@\u547C\u5438\u5F85\u6A5F(Clone)"
+      position: {x: 0.000000014901161, y: 2.8427505, z: -0.05206022}
+      rotation: {x: -0.0000000029103835, y: -7.940935e-19, z: 2.728484e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: onion_cat:LeftUpLeg
+      parentName: onion_cat:Hips
+      position: {x: -1.2111249, y: -0.4120764, z: -0.009895708}
+      rotation: {x: -0.000010332253, y: -0.0012993341, z: 0.9999675, w: -0.007956132}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: onion_cat:LeftLeg
+      parentName: onion_cat:LeftUpLeg
+      position: {x: -8.5717555e-10, y: 1.3344532, z: -6.7623844e-11}
+      rotation: {x: -0.0058489353, y: 0.00006832999, z: -0.011677091, w: 0.99991477}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: onion_cat:LeftFoot
+      parentName: onion_cat:LeftLeg
+      position: {x: 1.8113866e-11, y: 1.0201969, z: -6.6490835e-10}
+      rotation: {x: 0.69835895, y: 0.088811845, z: -0.08800736, w: 0.70474255}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1}
+    - name: onion_cat:LeftToeBase
+      parentName: onion_cat:LeftFoot
+      position: {x: -6.7511504e-12, y: 0.26224756, z: -1.2911272e-11}
+      rotation: {x: 0.025435563, y: 0.00029833612, z: 0.011724027, w: 0.99960774}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: onion_cat:LeftToe_End
+      parentName: onion_cat:LeftToeBase
+      position: {x: 0.000000002108112, y: 0.27266684, z: 1.7636964e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:RightUpLeg
+      parentName: onion_cat:Hips
+      position: {x: 1.2111249, y: -0.4120764, z: 0.0025515913}
+      rotation: {x: 0.000045801604, y: -0.0057550734, z: 0.99995184, w: 0.007955518}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:RightLeg
+      parentName: onion_cat:RightUpLeg
+      position: {x: 2.7838792e-10, y: 1.334537, z: 3.8226522e-10}
+      rotation: {x: 0.000020495083, y: 0.00000019342042, z: 0.01167666, w: 0.9999319}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: onion_cat:RightFoot
+      parentName: onion_cat:RightLeg
+      position: {x: -1.7691121e-10, y: 1.0201597, z: -2.93221e-10}
+      rotation: {x: 0.7004771, y: -0.07387826, z: 0.07329548, w: 0.7060465}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: onion_cat:RightToeBase
+      parentName: onion_cat:RightFoot
+      position: {x: 0.0000000016040913, y: 0.31440774, z: -2.930136e-10}
+      rotation: {x: 0.021811245, y: -0.00010120867, z: -0.004639018, w: 0.9997513}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: onion_cat:RightToe_End
+      parentName: onion_cat:RightToeBase
+      position: {x: -1.7324069e-10, y: 0.3104466, z: -1.3007863e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:Spine
+      parentName: onion_cat:Hips
+      position: {x: -0, y: 0.74153745, z: 0.012166619}
+      rotation: {x: 0.008202819, y: -0.0000000014566347, z: -1.6995617e-10, w: 0.9999664}
+      scale: {x: 0.99999994, y: 1, z: 1.0000005}
+    - name: onion_cat:Spine1
+      parentName: onion_cat:Spine
+      position: {x: -0, y: 0.8652434, z: -5.4543394e-11}
+      rotation: {x: -9.313226e-10, y: 0.0000000014331748, z: -0.0000000013538296, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999934}
+    - name: onion_cat:Spine2
+      parentName: onion_cat:Spine1
+      position: {x: -0, y: 0.9888502, z: -8.27355e-12}
+      rotation: {x: -9.313226e-10, y: 0.0000000029366611, z: 0.000000001577758, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999976}
+    - name: onion_cat:LeftShoulder
+      parentName: onion_cat:Spine2
+      position: {x: -0.93409467, y: 0.64902467, z: 0.00695576}
+      rotation: {x: 0.57621694, y: -0.4114577, z: 0.5730627, w: 0.41264504}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000007}
+    - name: onion_cat:LeftArm
+      parentName: onion_cat:LeftShoulder
+      position: {x: 1.6823179e-10, y: 2.098434, z: 0.0000000071068857}
+      rotation: {x: -0.17606547, y: -0.00069630146, z: 0.0038930476, w: 0.9843705}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999996}
+    - name: onion_cat:LeftForeArm
+      parentName: onion_cat:LeftArm
+      position: {x: -1.4606232e-10, y: 1.2947296, z: -0.0000000053697136}
+      rotation: {x: -0.026321346, y: 0.0004120882, z: -0.0060860384, w: 0.9996349}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: onion_cat:LeftHand
+      parentName: onion_cat:LeftForeArm
+      position: {x: 1.8195156e-10, y: 1.1202817, z: -7.7154706e-11}
+      rotation: {x: 0.068233356, y: 0.06336543, z: -0.053861476, w: 0.9941972}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000006}
+    - name: onion_cat:LeftHandIndex1
+      parentName: onion_cat:LeftHand
+      position: {x: 0.0000000024036575, y: 0.29699698, z: -0.000000002762066}
+      rotation: {x: 0.027672727, y: 0.5386884, z: 0.07312615, w: 0.8388693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:LeftHandIndex2
+      parentName: onion_cat:LeftHandIndex1
+      position: {x: -5.8514612e-12, y: 0.00027037683, z: 4.2174974e-12}
+      rotation: {x: 0.0030325032, y: 0.00011077522, z: 0.024082754, w: 0.99970543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:LeftHandIndex3
+      parentName: onion_cat:LeftHandIndex2
+      position: {x: -0.0000008165577, y: 0.00040580798, z: 0.00000013997597}
+      rotation: {x: 0.007765398, y: -0.26214767, z: -0.01018518, w: 0.9649428}
+      scale: {x: 1.0000004, y: 1.0000006, z: 0.9999997}
+    - name: onion_cat:LeftHandIndex4
+      parentName: onion_cat:LeftHandIndex3
+      position: {x: -0.00000039630706, y: 0.000405932, z: -0.00000028492587}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:Neck
+      parentName: onion_cat:Spine2
+      position: {x: -0, y: 1.1124556, z: 0.00000000654711}
+      rotation: {x: -0.0082028145, y: -0.000000002199313, z: -0.000000002005653, w: 0.9999664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:Head
+      parentName: onion_cat:Neck
+      position: {x: -0, y: 1.1538141, z: -0.085865095}
+      rotation: {x: -0.000000011175871, y: 7.2759554e-10, z: 7.27596e-10, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: onion_cat:HeadTop_End
+      parentName: onion_cat:Head
+      position: {x: -0, y: 0.7155804, z: -0.053252425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: onion_cat:RightShoulder
+      parentName: onion_cat:Spine2
+      position: {x: 0.93409467, y: 0.64904594, z: 0.0082512}
+      rotation: {x: 0.5768472, y: 0.410798, z: -0.5724097, w: 0.41332734}
+      scale: {x: 1.0000006, y: 1, z: 1.0000005}
+    - name: onion_cat:RightArm
+      parentName: onion_cat:RightShoulder
+      position: {x: -9.2923697e-11, y: 2.098434, z: 0.0000000071082717}
+      rotation: {x: -0.1760218, y: 0.0010773091, z: -0.0060248366, w: 0.98436725}
+      scale: {x: 1.0000004, y: 1.0000012, z: 1.0000006}
+    - name: onion_cat:RightForeArm
+      parentName: onion_cat:RightArm
+      position: {x: -7.253207e-11, y: 1.2947403, z: 0.000000002948169}
+      rotation: {x: -0.026644522, y: -0.00039208148, z: 0.008033263, w: 0.99961257}
+      scale: {x: 1.0000006, y: 0.9999996, z: 1}
+    - name: onion_cat:RightHand
+      parentName: onion_cat:RightForeArm
+      position: {x: -7.5599826e-10, y: 1.1202686, z: 6.402843e-11}
+      rotation: {x: 0.27382526, y: 0.88895786, z: -0.1589864, w: 0.3309035}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: onion_cat:RightHandIndex1
+      parentName: onion_cat:RightHand
+      position: {x: -9.0455443e-10, y: 0.16481882, z: -4.5748122e-10}
+      rotation: {x: 0.0030919306, y: -0.9966178, z: 0.068767905, w: 0.044882197}
+      scale: {x: 1.000001, y: 1.0000007, z: 1.0000006}
+    - name: onion_cat:RightHandIndex2
+      parentName: onion_cat:RightHandIndex1
+      position: {x: -3.8045925e-10, y: 0.039581396, z: -2.2330766e-10}
+      rotation: {x: 0.10258291, y: -0.0000008270143, z: -0.09628511, w: 0.99005353}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: onion_cat:RightHandIndex3
+      parentName: onion_cat:RightHandIndex2
+      position: {x: -0.013635089, y: 0.0542765, z: -0.014527028}
+      rotation: {x: -0.19586177, y: 0.007578451, z: 0.21214445, w: 0.9573795}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: onion_cat:RightHandIndex4
+      parentName: onion_cat:RightHandIndex3
+      position: {x: 0.007594419, y: 0.03198773, z: 0.005868844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

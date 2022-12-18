@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 2762d849207c247caa721aa746f2be77
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: "corn@\u6B7B(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:polySurface1pSphere17
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface2
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface3
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface4
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface7
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface8
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface9
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface10
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface11
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface12
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface13
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface14
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere17polySurface15
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:polySurface16pSphere20
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:pSphere20polySurface17
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:Hips
+      parentName: "corn@\u6B7B(Clone)"
+      position: {x: -0.000000037252903, y: 1.9829943, z: -0.087808}
+      rotation: {x: 0.0000000045474735, y: -0.000000023283068, z: 0.0000000014551919, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:LeftUpLeg
+      parentName: corn_cat:Hips
+      position: {x: -1.1291599, y: -0.27964157, z: 0.013096466}
+      rotation: {x: 0.0005969387, y: -0.020303736, z: 0.9993618, w: 0.029383764}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: corn_cat:LeftLeg
+      parentName: corn_cat:LeftUpLeg
+      position: {x: 4.6161885e-10, y: 0.9873035, z: 0.0000000016697207}
+      rotation: {x: 0.015876304, y: 0.0014997742, z: 0.09403969, w: 0.9954407}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: corn_cat:LeftFoot
+      parentName: corn_cat:LeftLeg
+      position: {x: 0.0000000017969226, y: 0.65331364, z: 4.4676288e-10}
+      rotation: {x: 0.6715291, y: -0.10534129, z: 0.085510924, w: 0.72845024}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: corn_cat:LeftToeBase
+      parentName: corn_cat:LeftFoot
+      position: {x: -0.000000002738837, y: 0.37023905, z: 5.173983e-10}
+      rotation: {x: 0.26170313, y: 0.5695934, z: -0.19779631, w: 0.7536256}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: corn_cat:LeftToe_End
+      parentName: corn_cat:LeftToeBase
+      position: {x: -6.163657e-10, y: 0.27645826, z: 3.1963693e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:RightUpLeg
+      parentName: corn_cat:Hips
+      position: {x: 1.1291599, y: -0.27964157, z: -0.024998924}
+      rotation: {x: -0.000037161608, y: -0.0012644127, z: 0.99956656, w: -0.029413885}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+    - name: corn_cat:RightLeg
+      parentName: corn_cat:RightUpLeg
+      position: {x: 3.5922496e-10, y: 0.9864948, z: 7.4569774e-11}
+      rotation: {x: -0.02987347, y: 0.002821673, z: -0.09399242, w: 0.9951207}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000001}
+    - name: corn_cat:RightFoot
+      parentName: corn_cat:RightLeg
+      position: {x: -0.0000000052391553, y: 0.6545657, z: 0.0000000026025684}
+      rotation: {x: 0.68471205, y: 0.087575525, z: -0.06844496, w: 0.72028846}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: corn_cat:RightToeBase
+      parentName: corn_cat:RightFoot
+      position: {x: -0.000000005886141, y: 0.24997298, z: -2.972369e-10}
+      rotation: {x: 0.58300424, y: -0.3381003, z: 0.2901159, w: 0.67943144}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: corn_cat:RightToe_End
+      parentName: corn_cat:RightToeBase
+      position: {x: -3.7113967e-10, y: 0.03281172, z: 1.726616e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:Spine
+      parentName: corn_cat:Hips
+      position: {x: -0, y: 0.504194, z: -0.00672364}
+      rotation: {x: -0.0066672824, y: 0.000000023214636, z: 0.000000010341348, w: 0.99997777}
+      scale: {x: 0.99999994, y: 1, z: 1.0000005}
+    - name: corn_cat:Spine1
+      parentName: corn_cat:Spine
+      position: {x: -0, y: 0.5882786, z: 2.9276644e-11}
+      rotation: {x: 0.000000028871, y: 1.5523227e-10, z: -0.000000011640497, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999998}
+    - name: corn_cat:Spine2
+      parentName: corn_cat:Spine1
+      position: {x: -0, y: 0.67231864, z: 1.7738859e-10}
+      rotation: {x: -0.000000011175871, y: -1.2490009e-16, z: -4.481711e-18, w: 1}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1}
+    - name: corn_cat:LeftShoulder
+      parentName: corn_cat:Spine2
+      position: {x: -0.8622535, y: 0.7775688, z: 0.0011900489}
+      rotation: {x: 0.49409738, y: -0.5058169, z: 0.49341598, w: 0.5065154}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1.0000004}
+    - name: corn_cat:LeftArm
+      parentName: corn_cat:LeftShoulder
+      position: {x: 1.1102386e-10, y: 1.7300035, z: -0.0000000012561213}
+      rotation: {x: 0.052523464, y: 0.00042782724, z: 0.0008466989, w: 0.9986193}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000007}
+    - name: corn_cat:LeftForeArm
+      parentName: corn_cat:LeftArm
+      position: {x: -6.803706e-11, y: 0.69099766, z: -0.0000000048162105}
+      rotation: {x: -0.0681986, y: 0.00022688761, z: -0.0033197, w: 0.99766624}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999994}
+    - name: corn_cat:LeftHand
+      parentName: corn_cat:LeftForeArm
+      position: {x: 1.0918244e-11, y: 1.0167469, z: -9.196185e-11}
+      rotation: {x: 0.081235506, y: 0.004248995, z: 0.03353421, w: 0.9961216}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: corn_cat:LeftHandIndex1
+      parentName: corn_cat:LeftHand
+      position: {x: 1.2148589e-10, y: 0.05671306, z: 1.1232714e-10}
+      rotation: {x: -0.06183146, y: 0.0041034096, z: -0.05483274, w: 0.9965708}
+      scale: {x: 1.0000002, y: 1, z: 1.0000005}
+    - name: corn_cat:LeftHandIndex2
+      parentName: corn_cat:LeftHandIndex1
+      position: {x: 2.3686766e-10, y: 0.12024597, z: -5.595035e-10}
+      rotation: {x: -0.000000029802315, y: 0.000000005587934, z: 0.000000020081638, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1}
+    - name: corn_cat:LeftHandIndex3
+      parentName: corn_cat:LeftHandIndex2
+      position: {x: -0.002372069, y: 0.13788089, z: 0.00012223542}
+      rotation: {x: -0.017314153, y: -0.00025441239, z: -0.049196307, w: 0.99863905}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: corn_cat:LeftHandIndex4
+      parentName: corn_cat:LeftHandIndex3
+      position: {x: -0.009322272, y: 0.04858827, z: 0.0030295735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:Neck
+      parentName: corn_cat:Spine2
+      position: {x: -0, y: 0.7563581, z: -7.895911e-10}
+      rotation: {x: 0.0066672717, y: -0.000000023282547, z: -1.5523453e-10, w: 0.99997777}
+      scale: {x: 1, y: 1.0000006, z: 0.9999999}
+    - name: corn_cat:Head
+      parentName: corn_cat:Neck
+      position: {x: -0, y: 0.47552183, z: 0.009948873}
+      rotation: {x: -0, y: 0.000000023283064, z: 1.7578687e-17, w: 1}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1}
+    - name: corn_cat:HeadTop_End
+      parentName: corn_cat:Head
+      position: {x: -0, y: 2.6303363, z: 0.05503191}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corn_cat:RightShoulder
+      parentName: corn_cat:Spine2
+      position: {x: 0.8622535, y: 0.77759296, z: -0.00062402093}
+      rotation: {x: 0.493571, y: 0.50635284, z: -0.49392876, w: 0.505993}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: corn_cat:RightArm
+      parentName: corn_cat:RightShoulder
+      position: {x: -3.427919e-11, y: 1.7300035, z: -0.0000000012571485}
+      rotation: {x: -0.052461267, y: -0.00035102665, z: -0.000065505505, w: -0.99862295}
+      scale: {x: 1.0000005, y: 0.9999998, z: 1.0000006}
+    - name: corn_cat:RightForeArm
+      parentName: corn_cat:RightArm
+      position: {x: 9.772722e-11, y: 0.6910053, z: -0.000000004858489}
+      rotation: {x: 0.06828584, y: -0.00022890446, z: 0.0033433784, w: -0.9976602}
+      scale: {x: 1, y: 1.0000008, z: 1.0000002}
+    - name: corn_cat:RightHand
+      parentName: corn_cat:RightForeArm
+      position: {x: -8.807858e-11, y: 1.0167489, z: 1.0109829e-10}
+      rotation: {x: 0.0018611844, y: -0.00021975276, z: 0.117258765, w: -0.9930997}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: corn_cat:RightHandIndex1
+      parentName: corn_cat:RightHand
+      position: {x: 9.038345e-10, y: 0.07277531, z: -2.9481837e-11}
+      rotation: {x: 0.017077584, y: -0.0001439059, z: -0.008426365, w: 0.9998186}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: corn_cat:RightHandIndex2
+      parentName: corn_cat:RightHandIndex1
+      position: {x: 0.0000000011236306, y: 0.12176182, z: -3.7329584e-10}
+      rotation: {x: -0.008820898, y: -0.00000010190703, z: -0.05849405, w: 0.9982488}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: corn_cat:RightHandIndex3
+      parentName: corn_cat:RightHandIndex2
+      position: {x: -0.024043603, y: 0.12257026, z: 0.0036260372}
+      rotation: {x: 0.098588936, y: 0.018055214, z: 0.043411456, w: 0.99401695}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: corn_cat:RightHandIndex4
+      parentName: corn_cat:RightHandIndex3
+      position: {x: -0.0030428702, y: 0.040037744, z: -0.009742453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

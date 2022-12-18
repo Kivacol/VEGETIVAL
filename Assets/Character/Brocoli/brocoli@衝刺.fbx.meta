@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 0ca244df4dc2d4d48916a7f26f54d101
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: "\u885D\u523A"
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u885D\u523A"
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: brocoli_cat:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brocoli_cat:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: "brocoli@\u885D\u523A(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pSphere3
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pSphere31
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pSphere35
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pCylinder2
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pSphere36
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pSphere37
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pSphere38
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pSphere39
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:pTorus1
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:Hips
+      parentName: "brocoli@\u885D\u523A(Clone)"
+      position: {x: 0.000000059604645, y: 2.2178414, z: -0.0003607273}
+      rotation: {x: 0.00000002328306, y: -1.3552525e-16, z: -0.000000005820765, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: brocoli_cat:LeftUpLeg
+      parentName: brocoli_cat:Hips
+      position: {x: -1.1515548, y: -0.23696014, z: -0.0014642653}
+      rotation: {x: 0.000019447858, y: -0.0006497036, z: 0.99955094, w: 0.02995832}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: brocoli_cat:LeftLeg
+      parentName: brocoli_cat:LeftUpLeg
+      position: {x: 4.617371e-10, y: 1.1845769, z: -2.7348155e-11}
+      rotation: {x: 0.012022939, y: -0.000096468975, z: -0.008020834, w: 0.9998956}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: brocoli_cat:LeftFoot
+      parentName: brocoli_cat:LeftLeg
+      position: {x: 0.0000000033380527, y: 0.7187809, z: 0.0000000018473569}
+      rotation: {x: 0.71988285, y: -0.04483534, z: 0.046704657, w: 0.6910696}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: brocoli_cat:LeftToeBase
+      parentName: brocoli_cat:LeftFoot
+      position: {x: -0.0000000019419588, y: 0.21910043, z: 7.022043e-10}
+      rotation: {x: -0.037727233, y: 0.0016937023, z: -0.044816036, w: 0.99828124}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999998}
+    - name: brocoli_cat:LeftToe_End
+      parentName: brocoli_cat:LeftToeBase
+      position: {x: 5.0067767e-10, y: 0.24105512, z: -5.3223346e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:RightUpLeg
+      parentName: brocoli_cat:Hips
+      position: {x: 1.1515548, y: -0.23696014, z: 0.0021857372}
+      rotation: {x: -0.000017543996, y: -0.000585039, z: 0.999551, w: -0.029958315}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: brocoli_cat:RightLeg
+      parentName: brocoli_cat:RightUpLeg
+      position: {x: -1.08348386e-10, y: 1.1845767, z: -3.2808506e-11}
+      rotation: {x: 0.0055279494, y: 0.000044334593, z: 0.008020622, w: 0.9999526}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: brocoli_cat:RightFoot
+      parentName: brocoli_cat:RightLeg
+      position: {x: 0.0000000012330915, y: 0.7186307, z: 1.05798245e-10}
+      rotation: {x: 0.72192776, y: 0.039206315, z: -0.041042052, w: 0.6896367}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: brocoli_cat:RightToeBase
+      parentName: brocoli_cat:RightFoot
+      position: {x: 1.1929273e-10, y: 0.24984264, z: -6.6548167e-10}
+      rotation: {x: -0.033782598, y: -0.0012475922, z: 0.036883775, w: 0.9987476}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: brocoli_cat:RightToe_End
+      parentName: brocoli_cat:RightToeBase
+      position: {x: -1.7698112e-10, y: 0.24191059, z: 3.3537402e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:Spine
+      parentName: brocoli_cat:Hips
+      position: {x: -0, y: 0.42667967, z: 0.00005285725}
+      rotation: {x: 0.00006190966, y: -0.0000000029102027, z: 0.0000000029105625, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: brocoli_cat:Spine1
+      parentName: brocoli_cat:Spine
+      position: {x: -0, y: 0.49779266, z: -3.143854e-12}
+      rotation: {x: 0.00000002329034, y: 0.0000000029111042, z: 0.0000000058204046, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:Spine2
+      parentName: brocoli_cat:Spine1
+      position: {x: -0, y: 0.56890625, z: 1.6893864e-12}
+      rotation: {x: -0.00000004656613, y: -0.0000000014559126, z: -0.000000005820585, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: brocoli_cat:LeftShoulder
+      parentName: brocoli_cat:Spine2
+      position: {x: -0.7786996, y: 0.5824816, z: -0.00037516752}
+      rotation: {x: 0.5180994, y: -0.4812063, z: 0.5183483, w: 0.48096636}
+      scale: {x: 1.0000008, y: 1.0000013, z: 1.0000011}
+    - name: brocoli_cat:LeftArm
+      parentName: brocoli_cat:LeftShoulder
+      position: {x: 2.038436e-11, y: 1.5378033, z: -0.000000008968761}
+      rotation: {x: 0.0036832835, y: 0.000002145767, z: 0.0003676116, w: 0.99999315}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1}
+    - name: brocoli_cat:LeftForeArm
+      parentName: brocoli_cat:LeftArm
+      position: {x: -2.4849577e-11, y: 0.9870017, z: -0.0000000028004774}
+      rotation: {x: -0.04879435, y: 0.00007171009, z: -0.001468836, w: 0.99880785}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000002}
+    - name: brocoli_cat:LeftHand
+      parentName: brocoli_cat:LeftForeArm
+      position: {x: 1.7784512e-11, y: 1.0972124, z: 1.8601042e-10}
+      rotation: {x: -0.10626974, y: 0.95237046, z: -0.10696766, w: -0.2650571}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: brocoli_cat:LeftHandIndex1
+      parentName: brocoli_cat:LeftHand
+      position: {x: 0.0000000017371857, y: 0.09444098, z: -0.0000000014889784}
+      rotation: {x: -0.07380665, y: -0.008154659, z: 0.029713295, w: 0.9967965}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: brocoli_cat:LeftHandIndex2
+      parentName: brocoli_cat:LeftHandIndex1
+      position: {x: 0.0000000019762365, y: 0.12533206, z: -0.000000003609743}
+      rotation: {x: 0.00000005960463, y: -0.00000008847562, z: -0.000000048428763, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: brocoli_cat:LeftHandIndex3
+      parentName: brocoli_cat:LeftHandIndex2
+      position: {x: 0.005691865, y: 0.13871145, z: -0.0013266925}
+      rotation: {x: -0.00000011920926, y: 0.0000000586733, z: 0.00000007543712, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: brocoli_cat:LeftHandIndex4
+      parentName: brocoli_cat:LeftHandIndex3
+      position: {x: 0.000729826, y: 0.060690854, z: -0.000033101274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:RightShoulder
+      parentName: brocoli_cat:Spine2
+      position: {x: 0.7786996, y: 0.58248174, z: 0.00038942337}
+      rotation: {x: 0.51835304, y: 0.48096192, z: -0.5180947, w: 0.48121068}
+      scale: {x: 0.99999976, y: 0.9999995, z: 0.99999976}
+    - name: brocoli_cat:RightArm
+      parentName: brocoli_cat:RightShoulder
+      position: {x: 2.2611158e-11, y: 1.5378033, z: -0.000000008968756}
+      rotation: {x: -0.0036597545, y: 0.0000150948745, z: 0.0010607092, w: -0.9999927}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: brocoli_cat:RightForeArm
+      parentName: brocoli_cat:RightArm
+      position: {x: 1.403037e-11, y: 0.987004, z: -0.0000000028304583}
+      rotation: {x: -0.048794337, y: -0.00005715043, z: 0.0011699677, w: 0.9988082}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999997}
+    - name: brocoli_cat:RightHand
+      parentName: brocoli_cat:RightForeArm
+      position: {x: -7.5040425e-12, y: 1.097211, z: -2.1815197e-10}
+      rotation: {x: 0.0756845, y: -0.020488763, z: -0.06437021, w: 0.99484104}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: brocoli_cat:RightHandIndex1
+      parentName: brocoli_cat:RightHand
+      position: {x: 6.2749894e-10, y: 0.11071662, z: 9.951486e-10}
+      rotation: {x: -0.07316447, y: 0.0054987245, z: -0.035440043, w: 0.9966749}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: brocoli_cat:RightHandIndex2
+      parentName: brocoli_cat:RightHandIndex1
+      position: {x: 0.000000001322861, y: 0.1225708, z: -2.83286e-10}
+      rotation: {x: 0.01586422, y: 0.00000006472689, z: -0.021758797, w: 0.99963737}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: brocoli_cat:RightHandIndex3
+      parentName: brocoli_cat:RightHandIndex2
+      position: {x: -0.014497565, y: 0.13267772, z: -0.010569436}
+      rotation: {x: -0.06773998, y: -0.008470343, z: -0.013411489, w: 0.99757695}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: brocoli_cat:RightHandIndex4
+      parentName: brocoli_cat:RightHandIndex3
+      position: {x: -0.008221469, y: 0.0541758, z: 0.007309796}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:Neck
+      parentName: brocoli_cat:Spine2
+      position: {x: -0, y: 0.64001924, z: 6.764552e-11}
+      rotation: {x: -0.00006190967, y: 0.0000000014556418, z: 0.0000000072758675, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: brocoli_cat:Head
+      parentName: brocoli_cat:Neck
+      position: {x: -0, y: 0.5743558, z: 0.010900591}
+      rotation: {x: -0.000000011641532, y: 2.220446e-16, z: -0.0000000043655746, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brocoli_cat:HeadTop_End
+      parentName: brocoli_cat:Head
+      position: {x: -0, y: 3.067114, z: 0.058210205}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

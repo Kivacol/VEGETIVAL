@@ -1,0 +1,577 @@
+fileFormatVersion: 2
+guid: 397245dd0c96a463fa028a80ea6daf0d
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Running
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Running
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: chili_cat:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chili_cat:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: CHILI-@Running(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:polySurface4pSphere7
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface5
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface6
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface7
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface8
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface9
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface10
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface11
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface12
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:pSphere7polySurface13
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:Hips
+      parentName: CHILI-@Running(Clone)
+      position: {x: -0.000000014901161, y: 2.2539792, z: -0.047360122}
+      rotation: {x: -0.000000005820766, y: -0.000000005820767, z: 7.275959e-10, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: chili_cat:LeftUpLeg
+      parentName: chili_cat:Hips
+      position: {x: -0.89033914, y: -0.30548155, z: 0.0465351}
+      rotation: {x: -0.00009253013, y: 0.0033306922, z: 0.9996087, w: 0.027774163}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1}
+    - name: chili_cat:LeftLeg
+      parentName: chili_cat:LeftUpLeg
+      position: {x: -0.000000003203291, y: 1.0050732, z: -1.3618328e-12}
+      rotation: {x: -0.0052093905, y: 0.00006730848, z: -0.012918136, w: 0.999903}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: chili_cat:LeftFoot
+      parentName: chili_cat:LeftLeg
+      position: {x: 0.0000000021711124, y: 0.8533321, z: 6.0228086e-11}
+      rotation: {x: 0.7241531, y: 0.03798989, z: -0.040019445, w: 0.6874283}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999997}
+    - name: chili_cat:LeftToeBase
+      parentName: chili_cat:LeftFoot
+      position: {x: 1.3037038e-12, y: 0.15075336, z: -2.07297e-10}
+      rotation: {x: -0.043016516, y: 0.0008590184, z: -0.019946944, w: 0.9988749}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: chili_cat:LeftToe_End
+      parentName: chili_cat:LeftToeBase
+      position: {x: 1.7868529e-10, y: 0.16087742, z: 1.0931717e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:RightUpLeg
+      parentName: chili_cat:Hips
+      position: {x: 0.89033914, y: -0.30548155, z: 0.04818511}
+      rotation: {x: 0.000028810526, y: 0.0010372099, z: 0.9996137, w: -0.027774904}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: chili_cat:RightLeg
+      parentName: chili_cat:RightUpLeg
+      position: {x: -4.7493925e-10, y: 1.005053, z: -5.598568e-11}
+      rotation: {x: -0.0017829323, y: -0.000023045232, z: 0.012915979, w: 0.999915}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: chili_cat:RightFoot
+      parentName: chili_cat:RightLeg
+      position: {x: 0.0000000023420357, y: 0.85332704, z: 3.1313688e-11}
+      rotation: {x: 0.72225446, y: -0.035270523, z: 0.036933333, w: 0.68973935}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: chili_cat:RightToeBase
+      parentName: chili_cat:RightFoot
+      position: {x: -9.473416e-10, y: 0.16332953, z: 3.1465888e-10}
+      rotation: {x: -0.041442465, y: -0.0010572486, z: 0.025480418, w: 0.9988154}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+    - name: chili_cat:RightToe_End
+      parentName: chili_cat:RightToeBase
+      position: {x: -2.7181754e-10, y: 0.1583353, z: 1.2999188e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:Spine
+      parentName: chili_cat:Hips
+      position: {x: -0, y: 0.55007416, z: 0.010558827}
+      rotation: {x: 0.009596342, y: 2.0946356e-11, z: 0.0000000021826871, w: 0.999954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:Spine1
+      parentName: chili_cat:Spine
+      position: {x: -0, y: 0.64187115, z: 4.482407e-10}
+      rotation: {x: -0.000000047497444, y: -1.675655e-10, z: -0.000000008729543, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 0.9999999}
+    - name: chili_cat:Spine2
+      parentName: chili_cat:Spine1
+      position: {x: -0, y: 0.7335674, z: -2.1548047e-10}
+      rotation: {x: 0.000000035390258, y: 0.0000000117790275, z: 0.0000000070511987, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: chili_cat:LeftShoulder
+      parentName: chili_cat:Spine2
+      position: {x: -0.59125173, y: 0.44690478, z: 0.008427209}
+      rotation: {x: 0.5764371, y: -0.41274655, z: 0.5704071, w: 0.41472444}
+      scale: {x: 1.0000017, y: 1.0000032, z: 1.0000021}
+    - name: chili_cat:LeftArm
+      parentName: chili_cat:LeftShoulder
+      position: {x: 1.3563495e-10, y: 1.406674, z: 0.00000000567614}
+      rotation: {x: -0.19983517, y: 0.022232262, z: 0.0037817056, w: 0.97957003}
+      scale: {x: 1.0000012, y: 1.0000002, z: 1.0000001}
+    - name: chili_cat:LeftForeArm
+      parentName: chili_cat:LeftArm
+      position: {x: -3.29766e-10, y: 0.8094345, z: 1.6681838e-10}
+      rotation: {x: 0.0029169314, y: 0.00014911589, z: -0.0035354001, w: 0.9999895}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.99999994}
+    - name: chili_cat:LeftHand
+      parentName: chili_cat:LeftForeArm
+      position: {x: 2.4317472e-11, y: 0.98209614, z: -3.1204592e-10}
+      rotation: {x: -0.06897216, y: -0.00082609046, z: 0.011948852, w: 0.9975467}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: chili_cat:LeftHandIndex1
+      parentName: chili_cat:LeftHand
+      position: {x: 1.0290577e-11, y: 0.029156305, z: 1.9524804e-10}
+      rotation: {x: 0.065784484, y: -0.0007478595, z: -0.011344239, w: 0.9977692}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: chili_cat:LeftHandIndex2
+      parentName: chili_cat:LeftHandIndex1
+      position: {x: -3.6134028e-12, y: 0.12643155, z: -1.041883e-10}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999875, y: 1, z: 0.9999996}
+    - name: chili_cat:LeftHandIndex3
+      parentName: chili_cat:LeftHandIndex2
+      position: {x: 0.0039278907, y: 0.14869422, z: 0.0006999054}
+      rotation: {x: -0, y: -0.000000029802319, z: 0.000000014901159, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: chili_cat:LeftHandIndex4
+      parentName: chili_cat:LeftHandIndex3
+      position: {x: 0.0029344328, y: 0.06891759, z: -0.0011666063}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:RightShoulder
+      parentName: chili_cat:Spine2
+      position: {x: 0.59125173, y: 0.4468601, z: 0.006099035}
+      rotation: {x: 0.5755484, y: 0.41313297, z: -0.5713241, w: 0.41431144}
+      scale: {x: 1.0000013, y: 1.0000025, z: 1.000001}
+    - name: chili_cat:RightArm
+      parentName: chili_cat:RightShoulder
+      position: {x: -1.08371e-10, y: 1.406674, z: 0.000000005676745}
+      rotation: {x: -0.19996543, y: -0.008546784, z: -0.001843929, w: 0.979764}
+      scale: {x: 1, y: 1.0000004, z: 0.9999998}
+    - name: chili_cat:RightForeArm
+      parentName: chili_cat:RightArm
+      position: {x: -2.994282e-11, y: 0.809411, z: 0.000000004263202}
+      rotation: {x: 0.0029830032, y: 0.000024267467, z: -0.0005047212, w: 0.9999954}
+      scale: {x: 1.0000011, y: 0.99999887, z: 0.9999997}
+    - name: chili_cat:RightHand
+      parentName: chili_cat:RightForeArm
+      position: {x: -5.3403146e-12, y: 0.9820959, z: 3.8251868e-10}
+      rotation: {x: -0.03475197, y: 0.0008442467, z: -0.024267182, w: 0.999101}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: chili_cat:RightHandIndex1
+      parentName: chili_cat:RightHand
+      position: {x: -5.1942804e-11, y: 0.05256911, z: -3.461082e-11}
+      rotation: {x: 0.00057588506, y: 0.000021055452, z: 0.036391295, w: 0.99933743}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: chili_cat:RightHandIndex2
+      parentName: chili_cat:RightHandIndex1
+      position: {x: -6.9314596e-11, y: 0.11850422, z: -0.0000000020233943}
+      rotation: {x: -0.000000029802319, y: -0.000000059604638, z: 0.000000029802319, w: 1}
+      scale: {x: 0.9999997, y: 1.0000004, z: 0.9999998}
+    - name: chili_cat:RightHandIndex3
+      parentName: chili_cat:RightHandIndex2
+      position: {x: 0.004994072, y: 0.13901126, z: 0.000025653684}
+      rotation: {x: 0.0027833742, y: -0.000099661396, z: -0.0017499906, w: 0.9999946}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: chili_cat:RightHandIndex4
+      parentName: chili_cat:RightHandIndex3
+      position: {x: -0.0007193943, y: 0.061310124, z: -0.004636771}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chili_cat:Neck
+      parentName: chili_cat:Spine2
+      position: {x: -0, y: 0.8252627, z: 0.000000004034904}
+      rotation: {x: -0.009596336, y: -1.3963941e-11, z: -0.0000000014551245, w: 0.999954}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: chili_cat:Head
+      parentName: chili_cat:Neck
+      position: {x: -0, y: 0.9443115, z: 0.0009319484}
+      rotation: {x: -0, y: -0.0000000058207665, z: -0.000000004365575, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: chili_cat:HeadTop_End
+      parentName: chili_cat:Head
+      position: {x: -0, y: 1.7499169, z: 0.0017270064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
