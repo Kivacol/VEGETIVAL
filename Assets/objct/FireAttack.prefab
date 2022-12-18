@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6602197167945208549}
   - component: {fileID: 5535249133216716095}
   m_Layer: 0
-  m_Name: FX_Fire_ParticleSystem01
+  m_Name: Fire
   m_TagString: attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
