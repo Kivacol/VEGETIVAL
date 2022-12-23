@@ -35,7 +35,7 @@ public class characterCtrl : MonoBehaviour
                 //Debug.Log("A1" + avater1.transform.position);
                 //Debug.Log("CURR" + currAvater.transform.position);
                 currPos = currAvater.transform.position;
-                //avater1.transform.position = currAvater.transform.position + new Vector3(0, 2, 0);
+                //avater1.transform.position = currAvater.transform.position;
                 //Debug.Log(currAvater.transform.position);
                 //Debug.Log("A1-2" + avater1.transform.position);
                 avater2.gameObject.SetActive(false);
@@ -64,7 +64,10 @@ public class characterCtrl : MonoBehaviour
                 avater1.gameObject.SetActive(false);
                 currAvater = avater2;
                 //avater6.gameObject.SetActive(false);
-
+                //Invoke("resetCurr", 0.01f);
+                //Invoke("resetCurr", 0.02f);
+                //Invoke("resetCurr", 0.03f);
+                //Invoke("resetCurr", 0.04f);
                 break;
 
             case 3:
@@ -80,7 +83,10 @@ public class characterCtrl : MonoBehaviour
                 avater2.gameObject.SetActive(false);
                 currAvater = avater3;
                 //avater6.gameObject.SetActive(false);
-
+                //Invoke("resetCurr", 0.01f);
+                //Invoke("resetCurr", 0.02f);
+                //Invoke("resetCurr", 0.03f);
+                //Invoke("resetCurr", 0.04f);
                 break;
 
 
@@ -97,7 +103,10 @@ public class characterCtrl : MonoBehaviour
                 avater3.gameObject.SetActive(false);
                 currAvater = avater4;
                 //avater6.gameObject.SetActive(false);
-
+                //Invoke("resetCurr", 0.01f);
+                //Invoke("resetCurr", 0.02f);
+                //Invoke("resetCurr", 0.03f);
+                //Invoke("resetCurr", 0.04f);
                 break;
 
 
@@ -114,7 +123,10 @@ public class characterCtrl : MonoBehaviour
                 avater4.gameObject.SetActive(false);
                 currAvater = avater5;
                 //avater6.gameObject.SetActive(false);
-
+                //Invoke("resetCurr", 0.01f);
+                //Invoke("resetCurr", 0.02f);
+                //Invoke("resetCurr", 0.03f);
+                //Invoke("resetCurr", 0.04f);
                 break;
 
             //case 6:
@@ -147,9 +159,18 @@ public class characterCtrl : MonoBehaviour
     void resetCurr()
     {
         avater1.transform.position = currPos;
-        avater1.gameObject.SendMessage("setSpeed");
+        //avater1.SendMessage("setSpeed");
+        //avater2.transform.position = currPos;
+        //avater2.gameObject.SendMessage("setSpeed");
+        //avater3.transform.position = currPos;
+        //avater3.gameObject.SendMessage("setSpeed");
+        //avater4.transform.position = currPos;
+        //avater4.gameObject.SendMessage("setSpeed");
+        //avater5.transform.position = currPos;
+        //avater5.gameObject.SendMessage("setSpeed");
         //Debug.Log("A1-4" + avater1.transform.position);
-        //if (avater1.transform.position == currPos) {
+        //if (avater1.transform.position == currPos)
+        //{
         //    CancelInvoke("resetCurr");
         //}
     }

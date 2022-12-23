@@ -11,6 +11,8 @@ public class Brocoil : MonoBehaviour
     public AudioClip pull;
 
     public GameObject uICtrl;
+
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,8 @@ public class Brocoil : MonoBehaviour
         Destroy(gameObject, 10);
 
         uICtrl = GameObject.Find("UICtrl");
+
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,7 +55,7 @@ public class Brocoil : MonoBehaviour
             && other.gameObject.name== "Original" )
         {
             canPull = true;
-            other.gameObject.SendMessage("IsBrocoli");
+            //animator.SetTrigger("T_isPull");
         }
     }
 

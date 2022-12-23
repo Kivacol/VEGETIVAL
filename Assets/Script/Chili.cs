@@ -48,7 +48,7 @@ public class Chili : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player") 
-            && other.gameObject.name== "Original" || other.gameObject.name == "Original (1)")
+            && other.gameObject.name== "Original")
         {
             canPull = true;
         }
@@ -57,7 +57,7 @@ public class Chili : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player") 
-            && other.gameObject.name == "Original" || other.gameObject.name == "Original (1)")
+            && other.gameObject.name == "Original")
         {
             canPull = false;
         }

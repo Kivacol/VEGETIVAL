@@ -260,7 +260,7 @@ public class EnemyCtrl1 : MonoBehaviour
         LP -= 1;
         Immortal = true;
         
-        Invoke("CancelImmortal", 1);
+        Invoke("CancelImmortal", 0.5f);
         HurtAnime();
         Debug.Log("受傷");
 

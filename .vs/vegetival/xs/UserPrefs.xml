@@ -1,17 +1,14 @@
 ﻿<Properties StartupConfiguration="{B5372781-2802-2A87-0A14-5906D57E3285}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/UICtrl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Chili.cs">
     <Files>
-      <File FileName="Assets/Script/OriginalMovement.cs" Line="93" Column="41" />
-      <File FileName="Assets/Script/AudioCtrl.cs" Line="40" Column="41" />
-      <File FileName="Assets/Script/EnemyCtrl1.cs" Line="26" Column="18" />
-      <File FileName="Assets/Script/characterCtrl.cs" Line="151" Column="58" />
-      <File FileName="Assets/Script/UICtrl.cs" Line="91" Column="29" />
-      <File FileName="Assets/Script/VegetNew.cs" Line="17" Column="44" />
-      <File FileName="Assets/Script/BrocoliMovement.cs" Line="7" Column="18" />
-      <File FileName="Assets/Script/OnionMovement.cs" Line="120" Column="27" />
-      <File FileName="Library/PackageCache/com.unity.cinemachine@2.6.17/Runtime/Behaviours/CinemachineBrain.cs" Line="335" Column="1" />
-      <File FileName="Assets/Script/Onion.cs" Line="37" Column="1" />
-      <File FileName="Assets/Script/Brocoil.cs" Line="39" Column="1" />
+      <File FileName="Assets/Script/OriginalMovement.cs" Line="221" Column="4" />
+      <File FileName="Assets/Script/AudioCtrl.cs" />
+      <File FileName="Assets/Script/EnemyCtrl1.cs" />
+      <File FileName="Assets/Script/characterCtrl.cs" Line="174" Column="41" />
+      <File FileName="Assets/Script/UICtrl.cs" />
+      <File FileName="Assets/Script/Onion.cs" />
+      <File FileName="Assets/Script/Brocoil.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Chili.cs" Line="60" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +16,7 @@
           <Node name="vegetival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Script" expanded="True">
-                <Node name="UICtrl.cs" selected="True" />
+                <Node name="Chili.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -29,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="851db9cf-174d-46ae-8d4b-742881b6803d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="03bee345-646f-4b06-927c-44d3978073ec" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

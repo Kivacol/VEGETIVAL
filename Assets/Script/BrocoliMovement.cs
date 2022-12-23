@@ -144,6 +144,12 @@ public class BrocoliMovement : MonoBehaviour
         rotationSpeed = 0f;
     }
 
+    public void setSpeed()
+    {
+        speed = 7f;
+        rotationSpeed = 10f;
+    }
+
     //IEnumerable Dash()
     //{
 
