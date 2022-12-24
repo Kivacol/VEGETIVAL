@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Switch : MonoBehaviour
 {
+    public int storyCount = 0;
+
+    public Animator storyMan;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +22,7 @@ public class Switch : MonoBehaviour
 
     public void right()
     {
-
+        
     }
 
     public void lift()
