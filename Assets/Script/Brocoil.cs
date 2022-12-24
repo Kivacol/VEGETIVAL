@@ -12,10 +12,14 @@ public class Brocoil : MonoBehaviour
 
     public GameObject uICtrl;
 
-    public Animator animator;
+    private Animator animator;
+
+    //public Vector3 startPosition;
     // Start is called before the first frame update
     void Start()
     {
+        //startPosition = gameObject.transform.position;
+
         canPull = false;
 
         audioSource = GetComponent<AudioSource>();
@@ -25,6 +29,8 @@ public class Brocoil : MonoBehaviour
         uICtrl = GameObject.Find("UICtrl");
 
         animator = GetComponent<Animator>();
+
+        //GameObject.GetComponent<Transform>().position
     }
 
     // Update is called once per frame
@@ -35,7 +41,10 @@ public class Brocoil : MonoBehaviour
             if (canPull == true)
             {
                 audioSource.PlayOneShot(pull);
-                Invoke("getVe", 1);
+                //animator.SetTrigger("T_isPull");
+                GetVegetable();
+                Invoke("getVe", 1.6f);
+                
                 uICtrl.SendMessage("BrocoilAdd");
                 }
         }
@@ -55,7 +64,7 @@ public class Brocoil : MonoBehaviour
             && other.gameObject.name== "Original" )
         {
             canPull = true;
-            //animator.SetTrigger("T_isPull");
+            
         }
     }
 
@@ -66,5 +75,15 @@ public class Brocoil : MonoBehaviour
         {
             canPull = false;
         }
+    }
+
+    public void GetVegetable()
+    {
+        //startPosition = new Vector3(transform.position.x,transform.position.y,transform.position.z);
+
+        //new Vector3(transform.position.x, transform.position.y, transform.position.z) = Vector3(transform.position.x, transform.position.y, transform.position.z);
+        //Vector3 newPosition = transform.position;
+        animator.SetTrigger("T_isPull");
+        //transform.position = newPosition;
     }
 }

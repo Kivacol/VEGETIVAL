@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4566247539601779862}
   - component: {fileID: 4566247539601779856}
   - component: {fileID: -2750796577316483463}
+  - component: {fileID: -6201760814179617826}
   m_Layer: 0
   m_Name: brocoli
   m_TagString: Untagged
@@ -32,6 +33,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5796223, y: -9.218657, z: -3.804041}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4566247540425107055}
   m_Father: {fileID: 0}
@@ -56,6 +58,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -228,6 +231,26 @@ MonoBehaviour:
   canPull: 0
   pull: {fileID: 8300000, guid: 8b818fa349f66476dbddfa97097f810d, type: 3}
   uICtrl: {fileID: 0}
+--- !u!95 &-6201760814179617826
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3719964634023398070}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: da4ea0a9270b64c6bb000c5a3dd33a01, type: 3}
+  m_Controller: {fileID: 9100000, guid: faf27fa892d4d45c2897b2e999009190, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4566247540425107054
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +278,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4094942545116352524}
   m_RootOrder: 0

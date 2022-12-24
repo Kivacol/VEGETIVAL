@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{B5372781-2802-2A87-0A14-5906D57E3285}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Chili.cs">
     <Files>
-      <File FileName="Assets/Script/OriginalMovement.cs" Line="221" Column="4" />
-      <File FileName="Assets/Script/AudioCtrl.cs" />
-      <File FileName="Assets/Script/EnemyCtrl1.cs" />
-      <File FileName="Assets/Script/characterCtrl.cs" Line="174" Column="41" />
+      <File FileName="Assets/Script/OriginalMovement.cs" Line="185" Column="22" />
+      <File FileName="Assets/Script/AudioCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/EnemyCtrl1.cs" Line="265" Column="25" />
+      <File FileName="Assets/Script/characterCtrl.cs" Line="45" Column="22" />
       <File FileName="Assets/Script/UICtrl.cs" />
-      <File FileName="Assets/Script/Onion.cs" />
-      <File FileName="Assets/Script/Brocoil.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/Chili.cs" Line="60" Column="51" />
+      <File FileName="Assets/Script/Onion.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Brocoil.cs" Line="15" Column="31" />
+      <File FileName="Assets/Script/Chili.cs" Line="13" Column="30" />
+      <File FileName="Assets/Script/fireCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/ChiliMovement.cs" Line="89" Column="32" />
+      <File FileName="Assets/Script/Corn.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

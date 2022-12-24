@@ -11,6 +11,8 @@ public class Onion : MonoBehaviour
     public AudioClip pull;
 
     public GameObject uICtrl;
+
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,8 @@ public class Onion : MonoBehaviour
         Destroy(gameObject, 10);
 
         uICtrl = GameObject.Find("UICtrl");
+
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,7 +35,8 @@ public class Onion : MonoBehaviour
             if (canPull == true)
             {
                 audioSource.PlayOneShot(pull);
-                Invoke("getVe", 1);
+                animator.SetTrigger("T_isPull");
+                Invoke("getVe", 1.6f);
                 uICtrl.SendMessage("OnionAdd");
             }
         }
