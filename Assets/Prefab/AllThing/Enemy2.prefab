@@ -893,7 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3914286536976885873}
   m_Layer: 11
-  m_Name: imagePlane1
+  m_Name: point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -907,7 +907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3201295822170107381}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.29840407, y: 5.0893464, z: -19.527122}
+  m_LocalPosition: {x: -0.61, y: 5.0893464, z: 4.2}
   m_LocalScale: {x: 309.40134, y: 309.40134, z: 309.40134}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2437,6 +2437,9 @@ MonoBehaviour:
   Immortal: 0
   Button: {fileID: 0}
   messRange: 0
+  clawpoint: {fileID: 3201295822170107381}
+  vfx:
+  - {fileID: 4832751607443488954, guid: dc569d889482bed4d9de7edaa206f40f, type: 3}
   randomWalkMode: 0
   resetRandomWalk: 0
   Fire: {fileID: 9177437293076257089}
