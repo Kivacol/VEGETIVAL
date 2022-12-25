@@ -5,15 +5,15 @@
       <File FileName="Assets/Script/AudioCtrl.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/EnemyCtrl1.cs" Line="265" Column="25" />
       <File FileName="Assets/Script/characterCtrl.cs" Line="45" Column="22" />
-      <File FileName="Assets/Script/UICtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/UICtrl.cs" />
       <File FileName="Assets/Script/Onion.cs" Line="39" Column="36" />
       <File FileName="Assets/Script/Brocoil.cs" Line="46" Column="36" />
       <File FileName="Assets/Script/Chili.cs" Line="37" Column="36" />
       <File FileName="Assets/Script/fireCtrl.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/ChiliMovement.cs" Line="89" Column="32" />
-      <File FileName="Assets/Script/Corn.cs" Line="27" Column="45" />
-      <File FileName="Assets/Script/switch.cs" Line="194" Column="28" />
-      <File FileName="Assets/Script/Title.cs" Line="4" Column="1" />
+      <File FileName="Assets/Script/Corn.cs" Line="39" Column="36" />
+      <File FileName="Assets/Script/switch.cs" Line="31" Column="33" />
+      <File FileName="Assets/Script/Title.cs" Line="22" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
