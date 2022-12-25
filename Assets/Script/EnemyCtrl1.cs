@@ -48,6 +48,10 @@ public class EnemyCtrl1 : MonoBehaviour
 
     private float timeToChangeDirection;
 
+    public GameObject clawpoint;
+    public List<GameObject> vfx = new List<GameObject>();
+    private GameObject effectToSpawn;
+
     //亂跑
 
     public bool randomWalkMode;
@@ -76,7 +80,7 @@ public class EnemyCtrl1 : MonoBehaviour
 
         randomWalkMode = false;
         resetRandomWalk = true;
-
+        effectToSpawn = vfx[0];
         //if(other.gameObject.name == "Fire")
     }
 
@@ -112,7 +116,8 @@ public class EnemyCtrl1 : MonoBehaviour
                 if (TargetInAttackRange()) {
                     anim.SetTrigger("T_isAttack");
                     //Debug.Log("攻擊");
-                    Invoke("CheckHit", 1);   
+                    Invoke("CheckHit", 1);
+                    SpawnVFX();
                 }
                 
                 break;
@@ -359,4 +364,16 @@ public class EnemyCtrl1 : MonoBehaviour
     //    Gizmos.color = Color.blue;
     //    Gizmos.DrawWireSphere(transform.position, sightRadius);
     //}
+    void SpawnVFX()
+    {
+        GameObject vfx;
+        if(clawpoint != null)
+        {
+            vfx = Instantiate(effectToSpawn, clawpoint.transform.position, Quaternion.identity);
+        }
+        else
+        {
+            print("no");
+        }
+    }
 }
