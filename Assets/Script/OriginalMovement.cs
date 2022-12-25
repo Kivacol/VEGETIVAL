@@ -79,7 +79,6 @@ public class OriginalMovement : MonoBehaviour
         {
             AudioCtrl.PlayFootstepAudio();
         }
-
         if (Input.GetKeyDown(KeyCode.A))
         {
             AudioCtrl.PlayFootstepAudio();
@@ -95,11 +94,19 @@ public class OriginalMovement : MonoBehaviour
             AudioCtrl.PlayFootstepAudio();
         }
 
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D))
+        {
+            AudioCtrl.StopFootstepAudio();
+        }
+      
+
+
+
         //if (movementDirection != Vector3.zero)
         //{
 
         //    animator.SetBool("isRun", true);
-       
+
         //    Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
 
         //    transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
@@ -107,7 +114,7 @@ public class OriginalMovement : MonoBehaviour
         //else
         //{
         //    animator.SetBool("isRun", false);
-           
+
         //}
 
         if (Input.GetKeyDown(KeyCode.Space))

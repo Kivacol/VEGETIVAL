@@ -24,7 +24,7 @@ public class Brocoil : MonoBehaviour
 
         audioSource = GetComponent<AudioSource>();
 
-        Destroy(gameObject, 10);
+        Destroy(gameObject, 20);
 
         uICtrl = GameObject.Find("UICtrl");
 

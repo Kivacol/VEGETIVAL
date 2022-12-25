@@ -53,7 +53,9 @@ public class EnemyCtrl1 : MonoBehaviour
     public bool randomWalkMode;
     public bool resetRandomWalk;
     public GameObject Fire;
-   
+
+    //
+    public EnemyCheck enemyCheck;
 
     void Awake()
     {
@@ -161,7 +163,7 @@ public class EnemyCtrl1 : MonoBehaviour
         if(randomWalkMode == true && resetRandomWalk == true)
         {
             isRun = true;
-            agent.destination = transform.position+new Vector3(Random.Range(-25.0f, 25.0f),0, Random.Range(-25.0f, 25.0f));
+            agent.destination = transform.position+new Vector3(Random.Range(-40.0f, 40.0f),0, Random.Range(-40.0f, 40.0f));
             resetRandomWalk = false;
             Invoke("resetRandomWalkDic", 0.3f);
         }
@@ -268,8 +270,9 @@ public class EnemyCtrl1 : MonoBehaviour
         {
             agent.destination = transform.position;
             DeadAnime();
-            Invoke("Dead", 3);
-            Button.SendMessage("Win");
+            Invoke("Dead", 5.2f);
+            Invoke("EnemyDie", 5);
+            //Button.SendMessage("Win");
             
         }
     }
@@ -294,6 +297,11 @@ public class EnemyCtrl1 : MonoBehaviour
     {
         
         Immortal = false;
+    }
+
+    public void EnemyDie()
+    {
+        enemyCheck.SendMessage("enemyDie");
     }
 
     //private void OnTriggerFire(Collider other)

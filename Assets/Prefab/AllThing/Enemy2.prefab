@@ -2332,7 +2332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8707278756812643716
 Transform:
   m_ObjectHideFlags: 0
@@ -2433,13 +2433,14 @@ MonoBehaviour:
   attackRange: 10
   isHit: 0
   uiCtrl: {fileID: 0}
-  LP: 50
+  LP: 1
   Immortal: 0
   Button: {fileID: 0}
   messRange: 0
   randomWalkMode: 0
   resetRandomWalk: 0
   Fire: {fileID: 9177437293076257089}
+  enemyCheck: {fileID: 0}
 --- !u!195 &9177437293497148382
 NavMeshAgent:
   m_ObjectHideFlags: 0

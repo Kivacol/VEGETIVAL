@@ -48,7 +48,16 @@ public class AudioCtrl : MonoBehaviour
 
         current.playerSource.clip = current.wlakStepClips[index];
         current.playerSource.volume = 0.05f;
+        current.playerSource.loop=true;
         current.playerSource.Play();
+
+    }
+
+    public static void StopFootstepAudio()
+    {
+       
+        current.playerSource.Stop();
+        current.playerSource.loop = false;
 
     }
 }

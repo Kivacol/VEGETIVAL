@@ -8,7 +8,7 @@ public class timeout : MonoBehaviour
 {
 
     public GameObject continueButton;
-    public GameObject sittingButton;
+    //public GameObject sittingButton;
     public GameObject quitButton;
     public GameObject back;
 
@@ -23,7 +23,7 @@ public class timeout : MonoBehaviour
     void Start()
     {
         continueButton.gameObject.SetActive(false);
-        sittingButton.gameObject.SetActive(false);
+        //sittingButton.gameObject.SetActive(false);
         quitButton.gameObject.SetActive(false);
         back.gameObject.SetActive(false);
 
@@ -38,7 +38,7 @@ public class timeout : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             continueButton.gameObject.SetActive(true);
-            sittingButton.gameObject.SetActive(true);
+            //sittingButton.gameObject.SetActive(true);
             quitButton.gameObject.SetActive(true);
             back.gameObject.SetActive(true);
             //test.gameObject.SetActive(true);
@@ -49,7 +49,7 @@ public class timeout : MonoBehaviour
     public void Continue()
     {
         continueButton.gameObject.SetActive(false);
-        sittingButton.gameObject.SetActive(false);
+        //sittingButton.gameObject.SetActive(false);
         quitButton.gameObject.SetActive(false);
         back.gameObject.SetActive(false);
         Debug.Log("繼續");
