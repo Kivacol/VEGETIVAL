@@ -22,7 +22,7 @@ public class VegetNew : MonoBehaviour
 
     {
         for (int i = 0; i < VeagetableCount; i++)
-            Instantiate(Vegetable[Random.Range(0,4)], new Vector3(Random.Range(60f, 150f),4f, Random.Range(160f, 60f)), Quaternion.identity);
+            Instantiate(Vegetable[Random.Range(0,4)], new Vector3(Random.Range(60f, 150f),4.5f, Random.Range(160f, 60f)), Quaternion.identity);
         //int Random_Objects = Random.Range(0, Vegetable.Length);
 
         //int Random_Points = Random.Range(0, Points.Length);

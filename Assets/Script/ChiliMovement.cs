@@ -98,7 +98,7 @@ public class ChiliMovement : MonoBehaviour
             audioSource.PlayOneShot(fireAtt);
             speed = 0f;
             rotationSpeed = 0f;
-            //Instantiate(fire, transform.position+new Vector3 (0,3,0), transform.rotation);
+            Instantiate(fire, transform.position+new Vector3 (0,3,0), transform.rotation);
             StartCoroutine("fireTimer");
             //CornCtrl cornbull = Instantiate(Corn, transform.position + new Vector3(0, 3, 0), transform.rotation);
             //cornbull.dic = transform.forward;

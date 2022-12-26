@@ -25,13 +25,13 @@ public class cameraFollow : MonoBehaviour
         else if(avater2.activeSelf)
         {
             m_change.Follow = avater2.transform;
-            m_change.LookAt = avater2.transform.GetChild(11).gameObject.transform;
+            m_change.LookAt = avater2.transform.GetChild(12).gameObject.transform;
         }
 
         else if (avater3.activeSelf)
         {
             m_change.Follow = avater3.transform;
-            m_change.LookAt = avater3.transform.GetChild(10).gameObject.transform;
+            m_change.LookAt = avater3.transform.GetChild(11).gameObject.transform;
         }
         else if (avater4.activeSelf)
         {
