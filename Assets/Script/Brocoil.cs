@@ -46,7 +46,8 @@ public class Brocoil : MonoBehaviour
                 Invoke("getVe", 1.6f);
                 
                 uICtrl.SendMessage("BrocoilAdd");
-                }
+                canPull = false;
+            }
         }
     }
 

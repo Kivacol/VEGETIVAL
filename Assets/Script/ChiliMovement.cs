@@ -17,11 +17,17 @@ public class ChiliMovement : MonoBehaviour
 
     public Camera followCamera;
 
+    AudioSource audioSource;
+    public AudioClip walk;
+    public AudioClip hurt;
+    public AudioClip fireAtt;
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         character = GetComponent<CharacterController>();
+        audioSource = GetComponent<AudioSource>();
         originalStepOffest = character.stepOffset;
     }
 
@@ -38,7 +44,6 @@ public class ChiliMovement : MonoBehaviour
         {
             AudioCtrl.PlayFootstepAudio();
         }
-
         if (Input.GetKeyDown(KeyCode.A))
         {
             AudioCtrl.PlayFootstepAudio();
@@ -52,6 +57,11 @@ public class ChiliMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             AudioCtrl.PlayFootstepAudio();
+        }
+
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D))
+        {
+            AudioCtrl.StopFootstepAudio();
         }
 
         Movement();
@@ -85,6 +95,7 @@ public class ChiliMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetTrigger("T_isFire");
+            audioSource.PlayOneShot(fireAtt);
             speed = 0f;
             rotationSpeed = 0f;
             //Instantiate(fire, transform.position+new Vector3 (0,3,0), transform.rotation);
@@ -129,6 +140,7 @@ public class ChiliMovement : MonoBehaviour
 
     public void HurtAnime()
     {
+        audioSource.PlayOneShot(hurt);
         animator.SetTrigger("T_isHurt");
     }
 

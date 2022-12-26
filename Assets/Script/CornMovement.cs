@@ -16,6 +16,8 @@ public class CornMovement : MonoBehaviour
 
     public Camera followCamera;
 
+    public int coldDownCount;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +41,6 @@ public class CornMovement : MonoBehaviour
         {
             AudioCtrl.PlayFootstepAudio();
         }
-
         if (Input.GetKeyDown(KeyCode.A))
         {
             AudioCtrl.PlayFootstepAudio();
@@ -53,6 +54,11 @@ public class CornMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             AudioCtrl.PlayFootstepAudio();
+        }
+
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D))
+        {
+            AudioCtrl.StopFootstepAudio();
         }
 
         Movement();
@@ -85,16 +91,33 @@ public class CornMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            //StartCoroutine(TimerRoutine());
             animator.SetTrigger("T_isShoot");
             speed = 0f;
             rotationSpeed = 0f;
-            CornCtrl cornbull = Instantiate(Corn, transform.position + new Vector3(0, 3, 0), transform.rotation);
+            CornCtrl cornbull = Instantiate(Corn, transform.position + new Vector3(0, 2, 0), transform.rotation);
             cornbull.dic = transform.forward;
             StartCoroutine("shootTimer");
 
         }
 
     }
+
+    //private IEnumerator TimerRoutine()
+    //{
+    //    yield return new WaitForSeconds(5);
+    //    animator.SetTrigger("T_isShoot");
+    //    speed = 0f;
+    //    rotationSpeed = 0f;
+    //    CornCtrl cornbull = Instantiate(Corn, transform.position + new Vector3(0, 2, 0), transform.rotation);
+    //    cornbull.dic = transform.forward;
+    //    StartCoroutine("shootTimer");//code can be executed anywhere here before this next statement 
+        
+
+    //    //code pauses for 5 seconds
+    //                                        //code resumes after the 5 seconds and exits if there is nothing else to run
+
+    //}
 
     void Movement()
     {

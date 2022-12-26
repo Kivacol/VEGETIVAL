@@ -36,6 +36,7 @@ public class Chili : MonoBehaviour
                 animator.SetTrigger("T_isPull");
                 Invoke("getVe", 1.6f);
                 uICtrl.SendMessage("ChiliAdd");
+                canPull = false;
             }
         }
     }

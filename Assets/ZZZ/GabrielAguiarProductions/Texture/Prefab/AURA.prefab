@@ -19479,13 +19479,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 411420504970259601}
+  - component: {fileID: 2902141106687496604}
   m_Layer: 0
   m_Name: AURA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &411420504970259601
 Transform:
   m_ObjectHideFlags: 0
@@ -19505,3 +19506,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &2902141106687496604
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411420504970259602}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

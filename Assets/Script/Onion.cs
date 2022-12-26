@@ -38,6 +38,7 @@ public class Onion : MonoBehaviour
                 animator.SetTrigger("T_isPull");
                 Invoke("getVe", 1.6f);
                 uICtrl.SendMessage("OnionAdd");
+                canPull = false;
             }
         }
     }

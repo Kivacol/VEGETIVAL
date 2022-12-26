@@ -31,7 +31,6 @@ public class OnionMovement : MonoBehaviour
         {
             AudioCtrl.PlayFootstepAudio();
         }
-
         if (Input.GetKeyDown(KeyCode.A))
         {
             AudioCtrl.PlayFootstepAudio();
@@ -45,6 +44,11 @@ public class OnionMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             AudioCtrl.PlayFootstepAudio();
+        }
+
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D))
+        {
+            AudioCtrl.StopFootstepAudio();
         }
 
         //float horizontaInput = Input.GetAxis("Horizontal");

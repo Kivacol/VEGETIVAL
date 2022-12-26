@@ -25,6 +25,7 @@ public class OriginalMovement : MonoBehaviour
 
     AudioSource audioSource;
     public AudioClip wlak;
+    public AudioClip hurt;
 
     public Camera followCamera;
 //物件
@@ -34,6 +35,8 @@ public class OriginalMovement : MonoBehaviour
     public GameObject Brocoli;
 
     public int typeVegetable;
+
+
 
     //public static float OGspeed = 15f;
 
@@ -191,6 +194,7 @@ public class OriginalMovement : MonoBehaviour
 
     public void HurtAnime()
     {
+        audioSource.PlayOneShot(hurt);
         animator.SetTrigger("T_isHurt");
     }
 

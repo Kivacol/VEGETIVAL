@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyCheck : MonoBehaviour
 {
@@ -10,12 +11,19 @@ public class EnemyCheck : MonoBehaviour
     public int enemyNumber;
     public int enemyTime;
 
+
+    //AudioSource audioSource;
+    //public AudioClip hurt;
+    //public AudioClip die;
+    //public AudioClip attack;
     // Start is called before the first frame update
     void Start()
     {
         enemyCount = 0;
         enemyNumber = 1;
         enemyTime = 3;
+
+        //audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,10 +50,20 @@ public class EnemyCheck : MonoBehaviour
             }
 
         }
+
+        if (enemyCount == 4)
+        {
+            SceneManager.LoadScene(5);
+        }
     }
 
     public void enemyDie()
     {
         enemyCount--;
+    }
+
+    void win()
+    {
+        SceneManager.LoadScene(5);
     }
 }

@@ -60,7 +60,7 @@ public class UICtrl : MonoBehaviour
                 chiliIcon.gameObject.SetActive(true);
                 characterCtrl.whichAvaterIsOn = 2;
                 characterCtrl.SwitchAvater();
-                Invoke("ChiliResetOG", 5);
+                Invoke("ChiliResetOG", 30);
             }
         }
 
@@ -71,7 +71,7 @@ public class UICtrl : MonoBehaviour
                 onionIcon.gameObject.SetActive(true);
                 characterCtrl.whichAvaterIsOn = 3;
                 characterCtrl.SwitchAvater();
-                Invoke("OnionResetOG", 5);
+                Invoke("OnionResetOG", 30);
             }
         }
 
@@ -82,7 +82,7 @@ public class UICtrl : MonoBehaviour
                 cornIcon.gameObject.SetActive(true);
                 characterCtrl.whichAvaterIsOn = 5;
                 characterCtrl.SwitchAvater();
-                Invoke("CornResetOG", 5);
+                Invoke("CornResetOG", 30);
             }
         }
 
@@ -93,7 +93,7 @@ public class UICtrl : MonoBehaviour
                 brocoilIcon.gameObject.SetActive(true);
                 characterCtrl.whichAvaterIsOn = 4;
                 characterCtrl.SwitchAvater();
-                Invoke("BrocoilResetOG", 5);
+                Invoke("BrocoilResetOG", 30);
             }
         }
     }

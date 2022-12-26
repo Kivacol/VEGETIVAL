@@ -61,6 +61,11 @@ public class EnemyCtrl1 : MonoBehaviour
     //
     public EnemyCheck enemyCheck;
 
+    AudioSource audioSource;
+    public AudioClip hurt;
+    public AudioClip die;
+    public AudioClip attack;
+    
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -75,6 +80,8 @@ public class EnemyCtrl1 : MonoBehaviour
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         Immortal = false;
         InvokeRepeating("SwitchStates", 0f, 1.5f);
 
@@ -114,6 +121,7 @@ public class EnemyCtrl1 : MonoBehaviour
                 agent.speed = speed;
                 chasePlayer();
                 if (TargetInAttackRange()) {
+                    audioSource.PlayOneShot(attack);
                     anim.SetTrigger("T_isAttack");
                     //Debug.Log("攻擊");
                     Invoke("CheckHit", 1);
@@ -264,6 +272,7 @@ public class EnemyCtrl1 : MonoBehaviour
         if (Immortal==true) {
             return;
         }
+        audioSource.PlayOneShot(hurt);
         LP -= 1;
         Immortal = true;
         
@@ -273,6 +282,7 @@ public class EnemyCtrl1 : MonoBehaviour
 
         if (LP<=0)
         {
+            audioSource.PlayOneShot(die);
             agent.destination = transform.position;
             DeadAnime();
             Invoke("Dead", 5.2f);
