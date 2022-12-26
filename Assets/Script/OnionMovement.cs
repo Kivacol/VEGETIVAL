@@ -14,12 +14,15 @@ public class OnionMovement : MonoBehaviour
 
     public Camera followCamera;
 
+    AudioSource audioSource;
+    public AudioClip hurt;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         character = GetComponent<CharacterController>();
         originalStepOffest = character.stepOffset;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -113,6 +116,7 @@ public class OnionMovement : MonoBehaviour
 
     public void HurtAnime()
     {
+        audioSource.PlayOneShot(hurt);
         animator.SetTrigger("T_isHurt");
     }
 

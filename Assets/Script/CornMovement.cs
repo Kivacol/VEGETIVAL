@@ -18,12 +18,16 @@ public class CornMovement : MonoBehaviour
 
     public int coldDownCount;
 
+    AudioSource audioSource;
+    public AudioClip hurt;
+    public AudioClip shoot;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         character = GetComponent<CharacterController>();
         originalStepOffest = character.stepOffset;
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -92,6 +96,7 @@ public class CornMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //StartCoroutine(TimerRoutine());
+            audioSource.PlayOneShot(shoot);
             animator.SetTrigger("T_isShoot");
             speed = 0f;
             rotationSpeed = 0f;
@@ -153,6 +158,7 @@ public class CornMovement : MonoBehaviour
 
     public void HurtAnime()
     {
+        audioSource.PlayOneShot(hurt);
         animator.SetTrigger("T_isHurt");
     }
 

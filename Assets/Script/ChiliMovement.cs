@@ -18,7 +18,7 @@ public class ChiliMovement : MonoBehaviour
     public Camera followCamera;
 
     AudioSource audioSource;
-    public AudioClip walk;
+    //public AudioClip walk;
     public AudioClip hurt;
     public AudioClip fireAtt;
 

@@ -16,6 +16,9 @@ public class BrocoliMovement : MonoBehaviour
 
     public Camera followCamera;
 
+    AudioSource audioSource;
+    public AudioClip hurt;
+    public AudioClip waaaa;
     //衝刺
     //ThirdPersonCamera movement;
 
@@ -25,6 +28,7 @@ public class BrocoliMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         character = GetComponent<CharacterController>();
         originalStepOffest = character.stepOffset;
+        audioSource = GetComponent<AudioSource>();
     }
 
     IEnumerator powerTimer()
@@ -87,6 +91,7 @@ public class BrocoliMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            audioSource.PlayOneShot(waaaa);
             animator.SetTrigger("T_isAttack");
             //speed = 12f;
             //StartCoroutine(Dash());
@@ -130,6 +135,7 @@ public class BrocoliMovement : MonoBehaviour
     }
     public void HurtAnime()
     {
+        audioSource.PlayOneShot(hurt);
         animator.SetTrigger("T_isHurt");
     }
 
