@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 
-public class FLAME : MonoBehaviour
+
+public class NewBehaviourScript : MonoBehaviour
 {
     public VisualEffect flame;
 
