@@ -63,9 +63,10 @@ public class timeout : MonoBehaviour
 
     public void Quit()
     {
+        Time.timeScale = 1;
         back.gameObject.SetActive(false);
         SceneManager.LoadScene(0);
-        Time.timeScale = 1;
+        
 
     }
 
@@ -84,4 +85,10 @@ public class timeout : MonoBehaviour
         win.gameObject.SetActive(true);
         backButton.gameObject.SetActive(true);
     }
+
+    //public void Die()
+    //{
+    //    backButton.gameObject.SetActive(true);
+    //    back.gameObject.SetActive(true);
+    //}
 }

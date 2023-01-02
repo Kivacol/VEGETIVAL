@@ -1,29 +1,17 @@
 ﻿<Properties StartupConfiguration="{B5372781-2802-2A87-0A14-5906D57E3285}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/ChiliMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/EnemyCheck.cs">
     <Files>
-      <File FileName="Assets/Script/VegetNew.cs" Line="25" Column="94" IsPinned="True" />
-      <File FileName="Assets/Script/OriginalMovement.cs" Line="197" Column="9" />
-      <File FileName="Assets/Script/AudioCtrl.cs" Line="60" Column="42" />
-      <File FileName="Assets/Script/EnemyCtrl1.cs" Line="211" Column="14" />
-      <File FileName="Assets/Script/characterCtrl.cs" Line="45" Column="22" />
-      <File FileName="Assets/Script/UICtrl.cs" Line="96" Column="44" />
-      <File FileName="Assets/Script/Onion.cs" Line="41" Column="33" />
-      <File FileName="Assets/Script/Brocoil.cs" Line="49" Column="33" />
-      <File FileName="Assets/Script/Chili.cs" Line="39" Column="33" />
-      <File FileName="Assets/Script/fireCtrl.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/ChiliMovement.cs" Line="101" Column="40" />
-      <File FileName="Assets/Script/Corn.cs" Line="41" Column="33" />
-      <File FileName="Assets/Script/switch.cs" Line="31" Column="24" />
-      <File FileName="Assets/Script/Title.cs" Line="13" Column="5" />
-      <File FileName="Assets/Script/timeout.cs" Line="52" Column="39" />
-      <File FileName="Assets/Script/EnemyCheck.cs" Line="18" Column="31" />
-      <File FileName="Assets/Script/Switch1.cs" Line="201" Column="6" />
-      <File FileName="Assets/Script/BackTitle.cs" Line="20" Column="11" />
-      <File FileName="Assets/Script/CornMovement.cs" Line="99" Column="42" />
-      <File FileName="Assets/Script/OnionMovement.cs" Line="119" Column="39" />
-      <File FileName="Assets/ZZZ/FX/Flame.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/BrocoliMovement.cs" Line="95" Column="25" />
-      <File FileName="Assets/Script/cameraFollow.cs" Line="34" Column="60" />
+      <File FileName="Assets/Script/Title.cs" Line="190" Column="28" />
+      <File FileName="Assets/Script/Title1.cs" />
+      <File FileName="Assets/Script/Switch.cs" />
+      <File FileName="Assets/Script/OriginalMovement.cs" Line="139" Column="1" />
+      <File FileName="Assets/Script/UICtrl.cs" />
+      <File FileName="Assets/ZZZ/FX/NewBehaviourScript.cs" />
+      <File FileName="Assets/Script/EnemyCtrl1.cs" />
+      <File FileName="Assets/Script/CinemahineFreeLook.cs" />
+      <File FileName="Assets/Script/cameraFollow.cs" />
+      <File FileName="Assets/Script/VegetNew.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/EnemyCheck.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,7 +19,7 @@
           <Node name="vegetival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Script" expanded="True">
-                <Node name="ChiliMovement.cs" selected="True" />
+                <Node name="EnemyCheck.cs" selected="True" />
               </Node>
               <Node name="ZZZ" expanded="True">
                 <Node name="FX" expanded="True" />
@@ -41,16 +29,11 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="992e0e4f-e260-4076-8169-801615c488b1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="96c289cb-e550-4484-a897-96a8587f5018" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

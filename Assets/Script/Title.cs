@@ -7,17 +7,17 @@ public class Title : MonoBehaviour
 {
 
     private Animator animator;
-    public GameObject p1, p2, p3, p4, p5;
-    public GameObject c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12,c13,c14,c15,c16;
-    public AudioClip knook;
-    AudioSource audioSource;
+    //public GameObject p1, p2, p3, p4, p5;
+    //public GameObject c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12,c13,c14,c15,c16;
+    //public AudioClip knook;
+    //AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
 
-        audioSource = GetComponent<AudioSource>();
+        //audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,8 +28,8 @@ public class Title : MonoBehaviour
 
     public void start()
     {
-        audioSource.PlayOneShot(knook);
-        animator.SetTrigger("T_isUp");
+        //audioSource.PlayOneShot(knook);
+        //animator.SetTrigger("T_isUp");
 
         Invoke("WaitStart", 1.10f);
         //animator.SetTrigger("T_isPlay");
@@ -38,8 +38,8 @@ public class Title : MonoBehaviour
 
     public void QuitGame()
     {
-        audioSource.PlayOneShot(knook);
-        animator.SetTrigger("T_isUp");
+        //audioSource.PlayOneShot(knook);
+        //animator.SetTrigger("T_isUp");
 
         Invoke("WaitQuit", 1.0f);
         Invoke("Colse", 4);
@@ -48,9 +48,9 @@ public class Title : MonoBehaviour
 
     public void Crdit()
     {
-        audioSource.PlayOneShot(knook);
-        animator.SetTrigger("T_isUp");
-        
+        //audioSource.PlayOneShot(knook);
+        //animator.SetTrigger("T_isUp");
+
 
         Invoke("WaitCrdit", 1f);
         Invoke("QuitCrdit",3.20f);
@@ -59,8 +59,8 @@ public class Title : MonoBehaviour
     public void CrditBack()
     {
 
-        audioSource.PlayOneShot(knook);
-        animator.SetTrigger("T_isCreBack");
+        //audioSource.PlayOneShot(knook);
+        //animator.SetTrigger("T_isCreBack");
         //animator.SetTrigger("T_isOut");
         Invoke("CreBack", 1.2f);
         
@@ -72,42 +72,42 @@ public class Title : MonoBehaviour
     void QuitCrdit()
     {
         
-        animator.SetTrigger("T_isCre");
-        Invoke("show", 0.3f);
+        //animator.SetTrigger("T_isCre");
+        //Invoke("show", 0.3f);
 
     }
 
     void show()
     {
-        c16.gameObject.SetActive(true);
-        c13.gameObject.SetActive(true);
-        c14.gameObject.SetActive(true);
-        c15.gameObject.SetActive(true);
-        p5.gameObject.SetActive(true);
+        //c16.gameObject.SetActive(true);
+        //c13.gameObject.SetActive(true);
+        //c14.gameObject.SetActive(true);
+        //c15.gameObject.SetActive(true);
+        //p5.gameObject.SetActive(true);
     }
 
     void TitleShow()
     {
 
-        p1.gameObject.SetActive(true);
-        p2.gameObject.SetActive(true);
-        p3.gameObject.SetActive(true);
-        p4.gameObject.SetActive(true);
+        //p1.gameObject.SetActive(true);
+        //p2.gameObject.SetActive(true);
+        //p3.gameObject.SetActive(true);
+        //p4.gameObject.SetActive(true);
 
         
-        c1.gameObject.SetActive(true);
-        c2.gameObject.SetActive(true);
-        c3.gameObject.SetActive(true);
-        c4.gameObject.SetActive(true);
-        c5.gameObject.SetActive(true);
-        c6.gameObject.SetActive(true);
-        c7.gameObject.SetActive(true);
-        c8.gameObject.SetActive(true);
-        c9.gameObject.SetActive(true);
-        c10.gameObject.SetActive(true);
-        c11.gameObject.SetActive(true);
-        c12.gameObject.SetActive(true);
-        animator.SetTrigger("T_isDown");
+        //c1.gameObject.SetActive(true);
+        //c2.gameObject.SetActive(true);
+        //c3.gameObject.SetActive(true);
+        //c4.gameObject.SetActive(true);
+        //c5.gameObject.SetActive(true);
+        //c6.gameObject.SetActive(true);
+        //c7.gameObject.SetActive(true);
+        //c8.gameObject.SetActive(true);
+        //c9.gameObject.SetActive(true);
+        //c10.gameObject.SetActive(true);
+        //c11.gameObject.SetActive(true);
+        //c12.gameObject.SetActive(true);
+        //animator.SetTrigger("T_isDown");
 
     }
 
@@ -123,79 +123,80 @@ public class Title : MonoBehaviour
 
     void WaitStart()
     {
-        p1.gameObject.SetActive(false);
-        p2.gameObject.SetActive(false);
-        p3.gameObject.SetActive(false);
-        p4.gameObject.SetActive(false);
-        c1.gameObject.SetActive(false);
-        c2.gameObject.SetActive(false);
-        c3.gameObject.SetActive(false);
-        c4.gameObject.SetActive(false);
-        c5.gameObject.SetActive(false);
-        c6.gameObject.SetActive(false);
-        c7.gameObject.SetActive(false);
-        c8.gameObject.SetActive(false);
-        c9.gameObject.SetActive(false);
-        c10.gameObject.SetActive(false);
-        c11.gameObject.SetActive(false);
-        c12.gameObject.SetActive(false);
+        //p1.gameObject.SetActive(false);
+        //p2.gameObject.SetActive(false);
+        //p3.gameObject.SetActive(false);
+        //p4.gameObject.SetActive(false);
+        //c1.gameObject.SetActive(false);
+        //c2.gameObject.SetActive(false);
+        //c3.gameObject.SetActive(false);
+        //c4.gameObject.SetActive(false);
+        //c5.gameObject.SetActive(false);
+        //c6.gameObject.SetActive(false);
+        //c7.gameObject.SetActive(false);
+        //c8.gameObject.SetActive(false);
+        //c9.gameObject.SetActive(false);
+        //c10.gameObject.SetActive(false);
+        //c11.gameObject.SetActive(false);
+        //c12.gameObject.SetActive(false);
         animator.SetTrigger("T_isPlay");
     }
 
     void WaitCrdit()
     {
-        p1.gameObject.SetActive(false);
-        p2.gameObject.SetActive(false);
-        p3.gameObject.SetActive(false);
-        p4.gameObject.SetActive(false);
-        c1.gameObject.SetActive(false);
-        c2.gameObject.SetActive(false);
-        c3.gameObject.SetActive(false);
-        c4.gameObject.SetActive(false);
-        c5.gameObject.SetActive(false);
-        c6.gameObject.SetActive(false);
-        c7.gameObject.SetActive(false);
-        c8.gameObject.SetActive(false);
-        c9.gameObject.SetActive(false);
-        c10.gameObject.SetActive(false);
-        c11.gameObject.SetActive(false);
-        c12.gameObject.SetActive(false);
+        //p1.gameObject.SetActive(false);
+        //p2.gameObject.SetActive(false);
+        //p3.gameObject.SetActive(false);
+        //p4.gameObject.SetActive(false);
+        //c1.gameObject.SetActive(false);
+        //c2.gameObject.SetActive(false);
+        //c3.gameObject.SetActive(false);
+        //c4.gameObject.SetActive(false);
+        //c5.gameObject.SetActive(false);
+        //c6.gameObject.SetActive(false);
+        //c7.gameObject.SetActive(false);
+        //c8.gameObject.SetActive(false);
+        //c9.gameObject.SetActive(false);
+        //c10.gameObject.SetActive(false);
+        //c11.gameObject.SetActive(false);
+        //c12.gameObject.SetActive(false);
         animator.SetTrigger("T_isIn");
     }
 
     void WaitQuit()
     {
-        p1.gameObject.SetActive(false);
-        p2.gameObject.SetActive(false);
-        p3.gameObject.SetActive(false);
-        p4.gameObject.SetActive(false);
-        c1.gameObject.SetActive(false);
-        c2.gameObject.SetActive(false);
-        c3.gameObject.SetActive(false);
-        c4.gameObject.SetActive(false);
-        c5.gameObject.SetActive(false);
-        c6.gameObject.SetActive(false);
-        c7.gameObject.SetActive(false);
-        c8.gameObject.SetActive(false);
-        c9.gameObject.SetActive(false);
-        c10.gameObject.SetActive(false);
-        c11.gameObject.SetActive(false);
-        c12.gameObject.SetActive(false);
+        //p1.gameObject.SetActive(false);
+        //p2.gameObject.SetActive(false);
+        //p3.gameObject.SetActive(false);
+        //p4.gameObject.SetActive(false);
+        //c1.gameObject.SetActive(false);
+        //c2.gameObject.SetActive(false);
+        //c3.gameObject.SetActive(false);
+        //c4.gameObject.SetActive(false);
+        //c5.gameObject.SetActive(false);
+        //c6.gameObject.SetActive(false);
+        //c7.gameObject.SetActive(false);
+        //c8.gameObject.SetActive(false);
+        //c9.gameObject.SetActive(false);
+        //c10.gameObject.SetActive(false);
+        //c11.gameObject.SetActive(false);
+        //c12.gameObject.SetActive(false);
         animator.SetTrigger("T_isQuit");
     }
 
     void Colse()
     {
-        animator.SetTrigger("T_isColse");
+        //animator.SetTrigger("T_isColse");
+        Application.Quit();
     }
 
     void CreBack()
     {
-        c16.gameObject.SetActive(false);
-        c13.gameObject.SetActive(false);
-        c14.gameObject.SetActive(false);
-        c15.gameObject.SetActive(false);
-        p5.gameObject.SetActive(false);
+        //c16.gameObject.SetActive(false);
+        //c13.gameObject.SetActive(false);
+        //c14.gameObject.SetActive(false);
+        //c15.gameObject.SetActive(false);
+        //p5.gameObject.SetActive(false);
         animator.SetTrigger("T_isOut");
     }
 

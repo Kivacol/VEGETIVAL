@@ -116,7 +116,7 @@ public class Switch : MonoBehaviour
         if (storyCount == 12)
         {
             storyMan.SetTrigger("T_11");
-            //Invoke("Pic12", 2);
+            Invoke("Pic12", 2);
         }
 
 

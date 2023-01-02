@@ -197,6 +197,6 @@ public class Switch1 : MonoBehaviour
 
     void chage()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
